@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { openSans } from "./ui/fonts/fonts";
+import { poppins } from "./ui/fonts/fonts";
 import "./globals.css";
 
 export default function RootLayout({
@@ -9,7 +9,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${openSans.className} antialiased m-16 bg-zinc-950`}>
+      <body className={`${poppins.className} antialiased m-16 bg-zinc-950`}>
         {children}
       </body>
     </html>
