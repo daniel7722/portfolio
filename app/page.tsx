@@ -30,7 +30,7 @@ export default function Page() {
         <div className="w-full border border-zinc-700"></div>
         <ul className="grid grid-cols-3 lg:grid-cols-1 gap-4">
           <ContactInfo 
-            icon={EnvelopeIcon} 
+            icon={EnvelopeIcon}
             category="EMAIL" 
             text="dhkl2156@gmail.com" 
             url="mailto:dhkl2156@gmail.com"/>
