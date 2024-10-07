@@ -51,7 +51,7 @@ export default function Page() {
       <div className="grid grid-cols-1 lg: grid-cols-2 gap-4 min-w-full h-fit lg:min-w-[900px]">
         <Panel 
           url="https://stack-overflow-saver.vercel.app/my-questions"
-          image="/imperialOverflow.png"
+          image="/ImperialOverflow.png"
           alt_text="web"
           title="Overflow saver"
           tech_stack={["Next.js", "tailwindcss", "vercel"]}
