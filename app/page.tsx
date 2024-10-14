@@ -61,8 +61,7 @@ export default function Page() {
                 question/answer pair, the user copies the URL of the relevant Stack Overflow question
                 and provides the rank of the answer they want saved. A card is then generated on their
                 page which they can come back to each time they log in. The user can then search
-                for and delete cards as well."
-          />
+                for and delete cards as well. Please use 'account' and 'password' to log in."/>
       </div>
     </main>
     
